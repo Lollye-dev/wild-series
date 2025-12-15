@@ -1,0 +1,39 @@
+.programs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  padding: 1.5rem;
+}
+
+.program-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.program-card img {
+  width: 40%;
+  height: auto;
+  border-radius: 6px;
+  margin-bottom: 0.75rem;
+}
+
+.program-card h2 {
+  color: black;
+  font-size: 1.5rem;
+  margin: 0 0 0.5rem;
+}
+
+.program-card p {
+  font-size: 0.9rem;
+  margin: 0.25rem 0;
+  color: #444;
+}
+
+.country {
+  font-weight: bold;
+}
